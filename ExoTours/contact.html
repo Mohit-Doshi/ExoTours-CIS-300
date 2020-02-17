@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Thank you for visiting ExoTours' website. This page lists forms for the newsletter and for contacting ExoTours!">
+	<title>ExoTours :: Contact</title>
+	<link rel="stylesheet" href="assets/styles.css">
+</head>
+<div id="contactstuff">
+<body>
+	<div id="wrapper">
+		<header>
+			<h1><a href="index.html">ExoTours</a></h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="space.html">Space</a></li>
+				<li><a href="spacetourism.html">Space Tourism</a></li>
+				<li><a href="destinations.html">Destinations</a></li>
+				<li><a href="companies.html">Companies</a></li>
+				<li><a href="pricing.html">Pricing</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html" id="currentnav">Contact</a></li>
+			</ul>	
+		</nav>
+
+		<main>
+			<div id="parentdiv">
+				<br>
+				<h2>Thank you for visiting ExoTours! The forms below can be filled to sign up for the newsletter or to get in contact with ExoTours</h2>
+				<div id="newsletterform">
+					<h2>Sign up for the newsletter!</h2>
+					<h4>Required fields are marked with an asterisk *</h4>
+					<form method="post" action="#">
+						<label for="FirstName">* First Name:</label>
+						<input type="text" id="FirstName" name="FirstName" required >
+						<label for="LastName">* Last Name:</label>
+						<input type="text" id="LastName" name="LastName" required >
+						<label for="PhoneNumber">Phone:</label>
+						<input type="tel" id="PhoneNumber" name="PhoneNumber" maxlength="10" >
+						<label for="PreferredFrequency">* Preferred Frequency:</label>
+						<select id="PreferredFrequency" name="PreferredFrequency" size="3" required="">
+						  <option value="weekly">Weekly</option>
+						  <option value="fortnightly">Fortnightly</option>
+						  <option value="monthly">Monthly</option>
+						</select>
+						<label for="FormEmail">* E-mail:</label>
+						<input type="email" id="FormEmail" name="FormEmail" required >
+						<input type="submit">
+					</form>
+				</div>
+				<div id="companyform">
+					<h2>Get in touch with ExoTours</h2>
+					<h4>Use this form if you are a company or organization that wishes to get in touch with ExoTours.<br>Required fields are marked with an asterisk *</h4>
+					<form method="post" action="#">
+						<label for="CompanyName">* Company Name:</label>
+						<input type="text" id="CompanyName" name="CompanyName" required >
+						<label for="CompanyCountry">* Country:</label>
+						<input type="text" id="CompanyCountry" name="CompanyCountry" required >
+						<label for="OfficialEmail">* Official E-mail:</label>
+						<input type="email" id="OfficialEmail" name="OfficialEmail" required >
+						<label for="CompanyPhone">Company Phone:</label>
+						<input type="tel" id="CompanyPhone" name="CompanyPhone" maxlength="12" >
+						<label for="Reason">* Reason:</label>
+						<textarea id="Reason" name="Reason" cols="30" rows="4" required="required"> </textarea>
+						<label for="Sponsorship">* Interested in Sponsorship?:</label>
+						<div>
+							<input type="radio" id="Sponsorship" name="Sponsorship" value="Yes" checked>&nbsp;&nbsp;&nbsp;&nbsp;Yes<br>
+							<input type="radio" name="Sponsorship" value="No">&nbsp;&nbsp;&nbsp;&nbsp;No
+						</div>
+						<input type="submit">
+					</form>
+				</div>
+			</div>
+			<div id="devcontact">
+				<br><br>
+				<h2>For serious inquires reach out to <a class="myemail" href="mailto:md@exotours.com">md@exotours.com</a></h2>
+				<br>
+				<h3>About the Developer</h3>
+				<p id="selfinfo">Mohit Doshi is a junior majoring in Computer Science and minoring in Mathematics at Arizona State University, Tempe.<br>This website is the final project submission for the Fall 2019 <strong>CIS 300: Intro to Web Development</strong> Session C course.</p>
+				<p>Learn more about Mohit's projects: <a class="myemail" href="https://github.com/mohit-doshi">https://github.com/mohit-doshi</a></p>
+				<p>Connect with Mohit: <a id="myemail" href="https://github.com/mohit-doshi">https://www.linkedin.com/in/mohit-doshi/</a></p>
+				<br>
+			</div>
+		</main>
+		<footer>
+			<img id="logo" src="assets/logo.png" alt="ExoTours Logo">
+			<ul>
+				<li>Copyright &copy; 2019 ExoTours</li>
+				<li>All Rights Reserved</li>
+				<li>CIS 300</li>
+				<li>Fall 2019</li>
+			</ul>
+		</footer>
+	</div>
+
+</body>
+</div>
+</html>
